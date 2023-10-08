@@ -1,0 +1,190 @@
+body{
+    font-family:"Montserrat";
+}
+
+
+h1{
+    font-family:"Montserrat";
+    font-style: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: azure;
+}
+
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:lighter;
+}
+
+.nav-item{
+    padding: 0 18px;
+    color:white;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.iphone{
+    width:60%; 
+    transform:rotate(25deg);
+
+}
+
+
+#title{
+    background-color: rgb(197, 76, 76);
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content:center;
+    place-items: center;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #5e5757;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+#features{
+    padding:7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5px;
+
+}
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+    color:rgb(175, 69, 69);
+}
+
+
+#testimonials{
+    padding:7% 15%;
+    text-align: center;
+    background-color: rgb(197, 76, 76);
+    color:rgb(255, 255, 255);
+}
+
+h2{
+    font-family:"Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testimoial-img{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+
+#press{
+    background-color: rgb(197, 76, 76);
+    text-align: center;
+    padding: 3%;;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+
+
+.cta-item{
+    background-color:rgb(197, 76, 76) ;
+    padding: 90px;
+    text-align:center;
+}
+
+.cta-item h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.footer-icon {
+    margin-right:4px;
+    }
+
+
+#footer{
+    padding: 60px;
+    text-align: center;
+}
+
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 768px) {
+    #testimonial-carousel {
+      padding: 5% 10%;
+    }
+  
+    h2 {
+      font-size:1rem;
+    }
+  
+    .testimoial-img {
+      width: 20%;
+      margin: 10px;
+    }
+  }
